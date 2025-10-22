@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDC8DF"
+    tools:context="com.raj.p3pmob.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORM PENDAFTARAN"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isinama"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="#370473" />
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isiusername"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="#370473" />
+
+    <TextView
+        android:id="@+id/heading3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isiumur"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="#370473" />
+
+    <TextView
+        android:id="@+id/heading4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isiemail"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="#370473" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:layout_marginTop="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/heading5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isipassword"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        app:boxStrokeColor="#370473" />
+
+    <TextView
+        android:id="@+id/heading6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        app:boxStrokeColor="#1E88E5"/>
+
+    <EditText
+        android:id="@+id/isiconfirm"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        app:boxStrokeColor="#370473" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
